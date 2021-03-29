@@ -1,10 +1,9 @@
-import React,{useState, useContext} from 'react';
+import React,{ useContext} from 'react';
 import AppContext from '../Context/AppContext';
 
 const Card = ({props}) => {
   const {pokeDetail, setPokeDetail} = useContext(AppContext);
-  let activo = 'pokemon__image hvr-fade';
-
+  
   //Event click to selected pokemon details
   const handleViewDetail = (item) => {
     setPokeDetail(item);
