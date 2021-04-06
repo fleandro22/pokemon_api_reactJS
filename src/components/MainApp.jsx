@@ -1,8 +1,7 @@
 import React, { useContext} from 'react';
 import AppContext from '../Context/AppContext';
-import CardSkeleton from '../components/CardSkeleton';
-
-import Card from '../../src/components/Card';
+import CardSkeleton from '../components/Card/CardSkeleton.js';
+import Card from '../../src/components/Card/Card.jsx';
 
 const MainApp = () => {
   const {poke, loading} = useContext(AppContext);

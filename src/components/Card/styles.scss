@@ -1,0 +1,36 @@
+.mainAppSkeleton{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  height: 100vh;
+  margin: 5px;
+  padding: 10px;
+  justify-items: center;
+  background-color:white;
+}
+.mainApp__item{
+  height: 140px;
+  width: 140px;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.pokemon__image{
+  width: 100%;
+  align-self: center;
+}
+
+.pokemon__name{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(41, 122, 255, 1);
+  color:white;
+  font-size: 13px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: capitalize; 
+}

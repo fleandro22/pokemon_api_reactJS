@@ -1,5 +1,6 @@
 import React,{ useContext} from 'react';
-import AppContext from '../Context/AppContext';
+import AppContext from '../../Context/AppContext';
+import './styles.scss';
 
 const Card = ({props}) => {
   const {pokeDetail, setPokeDetail} = useContext(AppContext);

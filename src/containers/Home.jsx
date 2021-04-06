@@ -1,7 +1,7 @@
 import React from 'react';
 import MainApp from '../components/MainApp';
 import ViewPokemon from '../components/ViewPokemon';
-import '../index.css';
+import '../styles/index.scss';
 
 const Home = () => {
   return (
